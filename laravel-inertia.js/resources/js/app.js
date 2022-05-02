@@ -1,5 +1,7 @@
 import {createApp, h} from 'vue'
 import {createInertiaApp, Link} from '@inertiajs/inertia-vue3'
+import {InertiaProgress} from '@inertiajs/progress'
+
 
 createInertiaApp({
     resolve: name => require(`./pages/${name}`),
@@ -9,4 +11,9 @@ createInertiaApp({
             .component('Link', Link)
             .mount(el)
     },
+})
+
+InertiaProgress.init({
+    color: 'red',
+    showSpinner: true,
 })
