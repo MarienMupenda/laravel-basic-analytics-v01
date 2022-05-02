@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Nav from "./Nav";
+import Nav from "../components/Navbar";
 
 export default {
     name: "Settings",
