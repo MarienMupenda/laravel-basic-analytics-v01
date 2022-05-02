@@ -1,6 +1,5 @@
 <template>
     <Nav/>
-    Home
 </template>
 
 <script>
