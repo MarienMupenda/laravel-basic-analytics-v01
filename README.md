@@ -62,3 +62,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# laravel-basic-analytics-v01
+Our application is really basic. It is an app that will allow us to keep track of the traffic a website of ours receives, the goals is to experiment queue and jobs concepts
+
+
+https://laravel-news.com/laravel-jobs-and-queues-101
